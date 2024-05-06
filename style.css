@@ -2,7 +2,7 @@ body{
     background-color: #D6E1EF;
 }
 .box{
-    height: 700px;
+    height: 640px;
     width:  400px;
     border: 0px;
     border-radius: 20px;
@@ -17,4 +17,23 @@ body{
     border-radius: 20px;
     width: 400px;
     height: 400px;
+}
+#main{
+    font-size: 20px;
+    font-family: outfit;
+    text-align: center;
+    padding: 10px;
+}
+.second-div{
+    transform: translateY(-40px);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    transform: translateY(-50px);
+}
+#para{
+    font-family: outfit;
+    font-size: 19px;
+    color: hsl(217, 25%, 75%);
 }
