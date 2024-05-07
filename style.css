@@ -1,3 +1,8 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 body{
     padding: 1rem;
     display: flex;
@@ -14,9 +19,11 @@ body{
     max-width: 20rem;
     padding: 15px;
     border-radius: 20px;
-    height: 32rem;
+    /* height: 32rem;  Removed this because the content should determine the height of the card*/
 }
 .card img{
+
+    /* The two lines below are used on img meaning it will apply to all images */
     display: block;
     max-width: 100%;
     border-radius: 10px;
