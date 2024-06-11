@@ -18,7 +18,7 @@ body{
     background-color: hsl(0, 0%, 100%);
     max-width: 20rem;
     padding: 15px;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     /* height: 32rem;  Removed this because the content should determine the height of the card*/
 }
 .card img{
